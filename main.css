@@ -18,3 +18,57 @@
     gap: 10px;
     justify-content: center; 
 }
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.senses-container-label {
+    text-align: left;
+}
+.senses-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.health-points-label {
+    text-align: center;
+    justify-content: center;
+}
+
+.health-points-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.armor-class-label {
+    text-align: center;
+
+}
+
+.armor-class-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hp-ac-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.characteristics-descrip-label {
+    text-align: right;
+}
+
+.characteristics-descrip-container {
+    display: flex;
+    flex-direction: column;
+}
