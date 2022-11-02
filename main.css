@@ -32,6 +32,9 @@
     text-align: left;
 }
 .senses-container {
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -39,9 +42,13 @@
 .health-points-label {
     text-align: center;
     justify-content: center;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .health-points-container {
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 5px 10px 5px 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -50,10 +57,14 @@
 
 .armor-class-label {
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
 
 }
 
 .armor-class-container {
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 5px 10px 5px 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -69,6 +80,47 @@
 }
 
 .characteristics-descrip-container {
+    font-size: 10px;
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
+
+}
+
+.characteristics-descrip-item {
+    text-align: center;    
+}
+
+.specifics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiencies-container {
+    font-size: 10px;
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.skills-container {
+    font-size: 10px;
+    font-family: "Kaushan Script", cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+}
+
+.general-info-container {
+    
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
+    display: flex;
 }
