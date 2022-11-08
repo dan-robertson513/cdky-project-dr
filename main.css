@@ -115,12 +115,21 @@
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
     display: flex;
+    flex-direction: column;
 }
 
 .general-info-container {
-    
+    font-size: 12px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
     display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (min-width: 400px) { 
+
+
+    
 }
