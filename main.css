@@ -1,3 +1,13 @@
+.page-container {
+    padding: 0px 20px 0px 20px;
+}
+
+body {
+    margin: 0;
+}
+.parchment  {
+    background-image: url(parchment.jpeg);
+}
 .stat-item-container {
     font-size: 35px;
     font-family: 'Kaushan Script', cursive;
@@ -9,6 +19,7 @@
     align-items: center;
     padding: 10px 20px 10px 10px;
 }
+
 .stat-item-label {
     text-align: center;
 }
@@ -16,8 +27,10 @@
 .stats-container {
     display: flex;
     gap: 10px;
-    justify-content: center; 
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -26,11 +39,13 @@
 .basics {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .senses-container-label {
     text-align: left;
 }
+
 .senses-container {
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
@@ -90,12 +105,13 @@
 }
 
 .characteristics-descrip-item {
-    text-align: center;    
+    text-align: center;
 }
 
 .specifics {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .profiencies-container {
@@ -128,8 +144,29 @@
 }
 
 
-@media only screen and (min-width: 400px) { 
+@media only screen and (min-width: 700px) {
+    .page-container {
+        padding: 0px 35px 0px 35px;
+    }
 
 
-    
+    .basics,
+    .specifics {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .profiencies-container, .skills-container {
+        flex-basis: calc(50% - 10px);
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .page-container {
+        padding: 0px 50px 0px 50px;
+    }
+
 }
