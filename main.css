@@ -43,7 +43,7 @@ body {
 }
 
 .senses-container-label {
-    text-align: left;
+    text-align: center;
 }
 
 .senses-container {
@@ -91,7 +91,7 @@ body {
 }
 
 .characteristics-descrip-label {
-    text-align: right;
+    text-align: center;
 }
 
 .characteristics-descrip-container {
@@ -115,6 +115,7 @@ body {
 }
 
 .profiencies-container {
+    text-align: center;
     font-size: 10px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
@@ -123,9 +124,16 @@ body {
     flex-direction: column;
 }
 
+.profiencies-label {
+    text-align: center;
+}
+.h3, h4, h5 {
+    font-weight: bold;
+}
 
 
 .skills-container {
+    text-align: center;
     font-size: 10px;
     font-family: "Kaushan Script", cursive;
     border: solid 2px black;
@@ -134,13 +142,17 @@ body {
     flex-direction: column;
 }
 
+.general-info-label {
+    text-align: center;
+}
+
 .general-info-container {
     font-size: 12px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
@@ -149,12 +161,19 @@ body {
         padding: 0px 35px 0px 35px;
     }
 
+    .stats-container {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .senses-container {
+        text-align: center;
+    }
 
     .basics,
     .specifics {
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 20px;
     }
