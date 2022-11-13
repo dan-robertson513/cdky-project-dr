@@ -4,10 +4,15 @@
 
 body {
     margin: 0;
+    background-color: black;
+    color: white;
 }
-.parchment  {
+
+.parchment {
     background-image: url(parchment.jpeg);
+    color: black;
 }
+
 .stat-item-container {
     font-size: 35px;
     font-family: 'Kaushan Script', cursive;
@@ -127,7 +132,10 @@ body {
 .profiencies-label {
     text-align: center;
 }
-.h3, h4, h5 {
+
+.h3,
+h4,
+h5 {
     font-weight: bold;
 }
 
@@ -177,7 +185,9 @@ body {
         flex-wrap: wrap;
         gap: 20px;
     }
-    .profiencies-container, .skills-container {
+
+    .profiencies-container,
+    .skills-container {
         flex-basis: calc(50% - 10px);
         box-sizing: border-box;
     }
