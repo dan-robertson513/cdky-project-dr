@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 0px 0px 10px 0px;
 }
 
 .senses-container-label {
@@ -75,6 +76,10 @@ body {
     text-align: center;
 }
 
+.health-points-item {
+    font-size: 30px;
+}
+
 .armor-class-label {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
@@ -90,6 +95,10 @@ body {
     text-align: center;
 }
 
+.armor-class-item {
+    font-size: 30px;
+}
+
 .hp-ac-container {
     display: flex;
     flex-direction: column;
@@ -100,7 +109,7 @@ body {
 }
 
 .characteristics-descrip-container {
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
@@ -121,7 +130,7 @@ body {
 
 .profiencies-container {
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
@@ -136,13 +145,14 @@ body {
 .h3,
 h4,
 h5 {
+    font-size: 25px;
     font-weight: bold;
 }
 
 
 .skills-container {
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Kaushan Script", cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
@@ -155,7 +165,33 @@ h5 {
 }
 
 .general-info-container {
-    font-size: 12px;
+    font-size: 15px;
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-info-label {
+    text-align: center;
+}
+
+.work-info-container {
+    font-size: 15px;
+    font-family: 'Kaushan Script', cursive;
+    border: solid 2px black;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-info-label {
+    text-align: center;
+}
+
+.background-info-container {
+    font-size: 15px;
     font-family: 'Kaushan Script', cursive;
     border: solid 2px black;
     padding: 10px 20px 10px 10px;
@@ -174,6 +210,7 @@ h5 {
     }
 
     .senses-container {
+        font-size: 20px;
         text-align: center;
     }
 
@@ -198,4 +235,29 @@ h5 {
         padding: 0px 50px 0px 50px;
     }
 
-}
+    .senses-container-info {
+        font-size: 20px;
+    }
+
+    .basics {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 20px;
+        padding: ;
+    }
+
+    .hp-ac-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .specifics {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
