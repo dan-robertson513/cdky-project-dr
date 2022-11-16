@@ -15,14 +15,14 @@ body {
 
 .stat-item-container {
     font-size: 35px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', serif;
+    border: solid 2px red;
     height: 50px;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .stat-item-label {
@@ -53,8 +53,8 @@ body {
 }
 
 .senses-container {
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,12 @@ body {
 .health-points-label {
     text-align: center;
     justify-content: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Times New Roman', cursive;
 }
 
 .health-points-container {
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 5px 10px 5px 10px;
     display: flex;
     justify-content: center;
@@ -83,13 +83,13 @@ body {
 
 .armor-class-label {
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Times New Roman', cursive;
 
 }
 
 .armor-class-container {
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 5px 10px 5px 10px;
     display: flex;
     flex-direction: column;
@@ -111,8 +111,8 @@ body {
 
 .characteristics-descrip-container {
     font-size: 20px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -132,8 +132,8 @@ body {
 .profiencies-container {
     text-align: center;
     font-size: 20px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -154,8 +154,8 @@ h5 {
 .skills-container {
     text-align: center;
     font-size: 20px;
-    font-family: "Kaushan Script", cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -167,8 +167,8 @@ h5 {
 
 .general-info-container {
     font-size: 15px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: none;
     flex-direction: column;
@@ -180,11 +180,12 @@ h5 {
 
 .work-info-container {
     font-size: 15px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: none;
     flex-direction: column;
+
 }
 
 .background-info-label {
@@ -193,8 +194,8 @@ h5 {
 
 .background-info-container {
     font-size: 15px;
-    font-family: 'Kaushan Script', cursive;
-    border: solid 2px black;
+    font-family: 'Times New Roman', cursive;
+    border: solid 2px red;
     padding: 10px 20px 10px 10px;
     display: none;
     flex-direction: column;
@@ -208,7 +209,7 @@ h5 {
     display: block;
 }
 
-. @media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     .page-container {
         padding: 0px 35px 0px 35px;
     }
@@ -218,9 +219,10 @@ h5 {
     }
 
     .senses-container {
-        font-size: 20px;
+        font-size: larger;
         text-align: center;
     }
+
 
     .basics,
     .specifics {
@@ -235,6 +237,10 @@ h5 {
     .skills-container {
         flex-basis: calc(50% - 10px);
         box-sizing: border-box;
+    }
+
+    .general-info-container {
+        font-size: larger;
     }
 }
 
@@ -253,7 +259,7 @@ h5 {
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 20px;
-        padding: ;
+        padding: 10px;
     }
 
     .hp-ac-container {
